@@ -1,6 +1,8 @@
 /*Main page styling*/
-form {
-    margin: 0 auto;
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+body {
+    margin-top: 20px;
 }
 
 fieldset {
@@ -10,6 +12,7 @@ fieldset {
     box-sizing: border-box;
 }
 
+/*picture styling*/
 .shirt-front {
     z-index: 2;
 }
@@ -18,6 +21,7 @@ fieldset {
     z-index: 1;
 }
 
+/*menu options for shirt*/
 .shirt-options {
     border: 1px solid red;
 }
