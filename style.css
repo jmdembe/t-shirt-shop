@@ -3,6 +3,8 @@ form {
 
 }
 
+
+/*Main page styling*/
 fieldset {
     border: 1px solid #000000;
 }
@@ -14,3 +16,5 @@ fieldset {
 .shirt-back {
     z-index: 1;
 }
+
+.shirt-options
