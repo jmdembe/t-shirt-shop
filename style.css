@@ -41,9 +41,15 @@ fieldset {
     margin: 0 auto;
 }
 
-.menu {
-    display: inline;
-    border: 1px solid green;
+.fa {
+    border: 1px solid black;
+    max-width: 20%;
+    color: #3333FF;
+    padding: .4em;
+}
+
+.fa:hover {
+    background-color: #1990FF;
 }
 
 /*Styling for shirt name and shirt price*/
