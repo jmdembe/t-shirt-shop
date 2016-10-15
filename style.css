@@ -16,6 +16,7 @@ fieldset {
     display: inline-block;
     box-sizing: border-box;
     padding: 0;
+    position: relative;
 }
 
 /*picture styling*/
@@ -26,18 +27,31 @@ fieldset {
 /*menu options for shirt*/
 .shirt-options {
     border: 1px solid red;
+    display: inline;
 }
 
 .menu {
     display: inline;
     border: 1px solid green;
 }
+
+/*Styling for shirt name and shirt price*/
+.shirt-info {
+  position: relative;
+}
+
+.shirt-info > p, {
+    position: relative;
+}
+
 .shirt-name {
   display: inline;
   border: 1px solid blue;
+  left: 0;
 }
 
 .shirt-price {
   display: inline;
   border: 1px solid purple;
+  right: 0;
 }
