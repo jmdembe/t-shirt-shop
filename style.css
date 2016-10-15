@@ -16,14 +16,24 @@ fieldset {
     box-sizing: border-box;
     padding: 0;
     position: relative;
-    max-width: 20%;
+    max-width: 25%;
 
 }
 
 /*picture styling*/
 .shirt-front, .shirt-back {
     max-width: 100%;
+}
 
+.shirt-front {
+
+}
+
+.shirt-front {
+
+}
+.shirt-back {
+    display: none;
 }
 
 /*menu options for shirt*/
