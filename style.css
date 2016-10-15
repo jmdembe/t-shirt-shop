@@ -27,8 +27,8 @@ fieldset {
 /*menu options for shirt*/
 .shirt-options {
     border: 1px solid red;
-    display: inline;
     text-align: center;
+    margin: 0 auto;
 }
 
 .menu {
@@ -39,10 +39,12 @@ fieldset {
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
+  border: 1px solid black;
 }
 
-.shirt-info > p, {
+.shirt-info > p {
     position: relative;
+    text-align:center;
 }
 
 .shirt-name {
