@@ -7,6 +7,7 @@ body {
 
 form {
     margin: 0;
+    max-width: 100%;
 }
 
 fieldset {
@@ -15,10 +16,14 @@ fieldset {
     box-sizing: border-box;
     padding: 0;
     position: relative;
+    max-width: 20%;
+
 }
 
 /*picture styling*/
-.shirt-front {
+.shirt-front, .shirt-back {
+    max-width: 100%;
+
 }
 
 /*menu options for shirt*/
@@ -33,9 +38,6 @@ fieldset {
     border: 1px solid green;
 }
 
-.icon {
-    border: 1px solid #FFCCCC;
-}
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
