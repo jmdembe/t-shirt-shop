@@ -56,4 +56,5 @@ fieldset {
   border: 1px solid purple;
   right: 0;
   float: right;
+  font-weight: bold;
 }
