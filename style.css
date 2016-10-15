@@ -2,17 +2,15 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
 body {
-    margin-top: 20px;
+    margin: 0 auto;
 }
 
 form {
     margin: 0;
-    bo
 }
 
 fieldset {
     /*border: 1px solid #000000;*/
-    width: 33%;
     display: inline-block;
     box-sizing: border-box;
     padding: 0;
@@ -21,7 +19,6 @@ fieldset {
 
 /*picture styling*/
 .shirt-front {
-    z-index: 2;
 }
 
 /*menu options for shirt*/
@@ -51,12 +48,12 @@ fieldset {
   display: inline;
   border: 1px solid blue;
   left: 0;
-  position: relative;
+  float: left;
 }
 
 .shirt-price {
   display: inline;
   border: 1px solid purple;
   right: 0;
-  position: relative;
+  float: right;
 }
