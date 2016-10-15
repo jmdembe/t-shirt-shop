@@ -5,20 +5,22 @@ body {
     margin-top: 20px;
 }
 
+form {
+    margin: 0;
+    bo
+}
+
 fieldset {
     border: 1px solid #000000;
     width: 33%;
-    display: inline;
+    display: inline-block;
     box-sizing: border-box;
+    padding: 0;
 }
 
 /*picture styling*/
 .shirt-front {
     z-index: 2;
-}
-
-.shirt-back {
-    z-index: 1;
 }
 
 /*menu options for shirt*/
@@ -28,11 +30,14 @@ fieldset {
 
 .menu {
     display: inline;
+    border: 1px solid green;
 }
 .shirt-name {
   display: inline;
+  border: 1px solid blue;
 }
 
 .shirt-price {
   display: inline;
+  border: 1px solid purple;
 }
