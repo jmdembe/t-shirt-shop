@@ -33,6 +33,9 @@ fieldset {
     border: 1px solid green;
 }
 
+.icon {
+    border: 1px solid #FFCCCC;
+}
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
