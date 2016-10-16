@@ -62,6 +62,14 @@ fieldset {
     background-color: #1990FF;
 }
 
+ul li ul.dropdown {
+    min-width: 100%;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    z-index:999;
+    display:none;
+}
 
 /*Styling for shirt name and shirt price*/
 .shirt-info {
