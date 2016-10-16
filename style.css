@@ -58,8 +58,16 @@ fieldset {
     padding: .3em;
 }
 
+.shirt-size {
+    display: none;
+}
+
 .fa:hover {
     background-color: #1990FF;
+}
+
+.fa-gbp:hover {
+    
 }
 
 /*Styling for shirt name and shirt price*/
