@@ -33,6 +33,16 @@ fieldset {
     display: none;
 }
 
+.fa-undo {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  margin: 0;
+  z-index: 2;
+  float: right;
+}
+
 /*menu options for shirt*/
 .shirt-options {
     border: 1px solid red;
@@ -44,8 +54,8 @@ fieldset {
 .fa {
     border: 1px solid black;
     max-width: 20%;
-    color: #3333FF;
-    padding: .4em;
+    color: #0000FF;
+    padding: .3em;
 }
 
 .fa:hover {
