@@ -17,16 +17,13 @@ fieldset {
     padding: 0;
     position: relative;
     max-width: 25%;
+    border: 2px solid #5CA4D7;
 
 }
 
 /*picture styling*/
 .shirt-front, .shirt-back {
     max-width: 100%;
-}
-
-.shirt-front {
-
 }
 
 .shirt-back {
@@ -41,6 +38,7 @@ fieldset {
   margin: 0;
   z-index: 2;
   float: right;
+  border: 2px solid
 }
 
 /*menu options for shirt*/
@@ -54,12 +52,14 @@ fieldset {
 .fa {
     border: 1px solid black;
     max-width: 20%;
-    color: #0000FF;
+    color: #5CA4D7;
     padding: .3em;
+    border: 2px solid #5CA4D7;
 }
 
 .fa:hover {
-    background-color: #1990FF;
+    background-color: #5CA4D7;
+    color: #FFFFFF;
 }
 
 .menu-button {
