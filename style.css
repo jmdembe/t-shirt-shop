@@ -1,7 +1,7 @@
 /*Main page styling*/
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
 
-body {
+main {
     margin: 0;
 }
 
@@ -10,25 +10,18 @@ form {
 }
 
 article {
-    /*border: 1px solid #000000;*/
-    display: inline;
     box-sizing: border-box;
-    padding: 0;
+    margin: 25px;
     position: relative;
     width: 300px;
     border: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 700px) {
   article {
     float: left;
   }
 }
-
-@media screen and (min-width: 321px) and (max-with: 799px)
-  article {
-
-  }
 
 /*picture styling*/
 .shirt-front, .shirt-back {
