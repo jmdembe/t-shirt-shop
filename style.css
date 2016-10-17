@@ -6,7 +6,6 @@ body {
 }
 
 form {
-    margin: 0;
     max-width: 100%;
 }
 
@@ -17,13 +16,14 @@ fieldset {
     padding: 0;
     position: relative;
     max-width: 25%;
-    border: 2px solid #5CA4D7;
+    border: none;
 
 }
 
 /*picture styling*/
 .shirt-front, .shirt-back {
     max-width: 100%;
+    border: 2px solid #5CA4D7;
 }
 
 .shirt-back {
@@ -43,8 +43,7 @@ fieldset {
 
 /*menu options for shirt*/
 .shirt-options {
-    border-top:1px solid #5CA4D7;
-    border-bottom: 1px solid #5CA4D7;
+    border: 2px solid #5CA4D7;
     text-align: center;
     padding-left: 0;
     margin: 0 auto;
@@ -87,6 +86,7 @@ ul li ul.dropdown li {
   display :inline;
   border: 2px solid #5CA4D7;
   background-color: #FFFFFF;
+  box-sizing: border-box;
 }
 
 ul li ul.dropdown li:hover {
@@ -100,6 +100,7 @@ ul li ul.dropdown li:hover {
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
+
 }
 
 .shirt-info > p {
