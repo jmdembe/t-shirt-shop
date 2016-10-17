@@ -25,7 +25,7 @@ article {
 
 /*picture styling*/
 .shirt-front, .shirt-back {
-    max-width: 100%;
+    width: 100%;
     border: 2px solid #5CA4D7;
 }
 
@@ -35,7 +35,7 @@ article {
 
 .fa-undo {
   position: absolute;
-  float: right;
+  /*float: right;*/
   top: 0;
   right: 0;
   margin: 0;
@@ -64,9 +64,7 @@ article {
     color: #FFFFFF;
 }
 
-.menu-button {
-    position: relative;
-}
+article ul
 
 ul li ul.dropdown {
     min-width: 100%;
