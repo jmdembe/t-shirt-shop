@@ -38,19 +38,19 @@ fieldset {
   margin: 0;
   z-index: 2;
   float: right;
-  border: 2px solid
+  border: 2px solid #5CA4D7;
 }
 
 /*menu options for shirt*/
 .shirt-options {
-    border: 1px solid red;
+    border-top:1px solid #5CA4D7;
+    border-bottom: 1px solid #5CA4D7;
     text-align: center;
     padding-left: 0;
     margin: 0 auto;
 }
 
 .fa {
-    border: 1px solid black;
     max-width: 20%;
     color: #5CA4D7;
     padding: .3em;
@@ -71,29 +71,35 @@ ul li ul.dropdown {
     list-style: none;
     position: absolute;
     left: 0;
+    bottom: 100%;
     z-index:999;
     display:none;
     padding:0;
+    color: #5CA4D7;
 }
 
 ul li:hover ul.dropdown {
   display: block;
+  min-width: 100%;
 }
 
 ul li ul.dropdown li {
-  display :block;
-  border: 1px solid #000000;
+  display :inline;
+  border: 2px solid #5CA4D7;
+  background-color: #FFFFFF;
 }
 
 ul li ul.dropdown li:hover {
-  background-color: #1990FF;
+  background-color: #5CA4D7;
+  color: #FFFFFF;
+  max-width: 100%;
+
 
 }
 
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
-  border: 1px solid black;
 }
 
 .shirt-info > p {
@@ -102,14 +108,12 @@ ul li ul.dropdown li:hover {
 
 .shirt-name {
   display: inline;
-  border: 1px solid blue;
   left: 0;
   float: left;
 }
 
 .shirt-price {
   display: inline;
-  border: 1px solid purple;
   right: 0;
   float: right;
   font-weight: bold;
