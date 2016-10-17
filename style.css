@@ -10,11 +10,11 @@ form {
 }
 
 article {
+    border: 2px solid #000000;
     box-sizing: border-box;
     margin: 25px;
     position: relative;
     width: 300px;
-    border: none;
 }
 
 @media screen and (min-width: 700px) {
@@ -26,7 +26,7 @@ article {
 /*picture styling*/
 .shirt-front, .shirt-back {
     width: 100%;
-    border: 2px solid #5CA4D7;
+
 }
 
 .shirt-back {
@@ -45,6 +45,12 @@ article {
 }
 
 /*menu options for shirt*/
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
 .shirt-options {
     border: 2px solid #5CA4D7;
     text-align: center;
