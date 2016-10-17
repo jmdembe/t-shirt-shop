@@ -47,15 +47,16 @@ article {
 /*menu options for shirt*/
 
 nav {
-  position: absolute;
-  width: 100%;
-  border: 2px solid red;
+  position: relative;
+  border: none;
+  border-bottom
   box-sizing: border-box;
 }
 
 ul {
-    border: 2px solid #5CA4D7;
     text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     padding-left: 0;
     margin: 0 auto;
 }
@@ -109,6 +110,7 @@ ul li ul.dropdown li:hover {
 /*Styling for shirt name and shirt price*/
 .shirt-info {
   position: relative;
+  bottom: 0;
 
 }
 
