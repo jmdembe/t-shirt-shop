@@ -9,16 +9,26 @@ form {
     max-width: 100%;
 }
 
-fieldset {
+article {
     /*border: 1px solid #000000;*/
-    display: inline-block;
+    display: inline;
     box-sizing: border-box;
     padding: 0;
     position: relative;
-    max-width: 25%;
+    width: 300px;
     border: none;
-
 }
+
+@media screen and (max-width: 320px) {
+  article {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-with: 799px)
+  article {
+
+  }
 
 /*picture styling*/
 .shirt-front, .shirt-back {
@@ -93,8 +103,6 @@ ul li ul.dropdown li:hover {
   background-color: #5CA4D7;
   color: #FFFFFF;
   max-width: 100%;
-
-
 }
 
 /*Styling for shirt name and shirt price*/
