@@ -110,7 +110,7 @@ ul li:hover ul.dropdown {
 }
 
 ul li ul.dropdown li {
-  display :inline;
+  display :block;
   border: 2px solid #5CA4D7;
   background-color: #FFFFFF;
   box-sizing: border-box;
@@ -133,13 +133,13 @@ ul li ul.dropdown li:hover {
     position: relative;
 }
 
-.shirt-name {
+h1 {
   display: inline;
   left: 0;
   float: left;
 }
 
-.shirt-price {
+h2 {
   display: inline;
   right: 0;
   float: right;
